@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13238d7d-3b37-4986-a7af-3ba0de680858" name="Default Changelist" comment="" />
+    <list default="true" id="13238d7d-3b37-4986-a7af-3ba0de680858" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/user-facade/src/main/java/user/config/MpGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-dao/user-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-dao/user-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-facade/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-facade/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-facade/user-facade.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-facade/user-facade.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-service.iml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,6 +39,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1TnJQLk3XBgEaRzfHzrO7BTP4lr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -127,5 +144,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-facade/src/main/java/user/config/MpGenerator.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
