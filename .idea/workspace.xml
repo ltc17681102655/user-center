@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13238d7d-3b37-4986-a7af-3ba0de680858" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user-common/user-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-core/user-core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-dao/user-dao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-facade/user-facade.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/user-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-center.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-dao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-dao/target/classes/mapper/CustomerLoginDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-facade/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-facade/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-facade/target/classes/META-INF/user-facade.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-facade/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-facade/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-facade/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-facade/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-facade/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-facade/target/test-classes/META-INF/user-facade.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="13238d7d-3b37-4986-a7af-3ba0de680858" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574089908336</updated>
-      <workItem from="1574089913298" duration="2833000" />
+      <workItem from="1574089913298" duration="3232000" />
     </task>
     <servers />
   </component>
