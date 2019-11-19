@@ -1,2 +1,4 @@
-user\facade\config\MybatisPlusConfig.class
-user\facade\UserCenterApplication.class
+user\config\MybatisPlusConfig.class
+user\controller\CustomerLoginController.class
+user\controller\MybatisPlusApiController.class
+user\UserCenterApplication.class

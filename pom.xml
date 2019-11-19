@@ -25,12 +25,72 @@
 
     <name>user-center</name>
 
-    <dependencies>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>
-    </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <!--内部-->
+            <dependency>
+                <groupId>user</groupId>
+                <artifactId>user-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>user</groupId>
+                <artifactId>user-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>user</groupId>
+                <artifactId>user-dao</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>user</groupId>
+                <artifactId>user-facade</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>user</groupId>
+                <artifactId>user-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!--外部-->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.16</version>
+            </dependency>
+            <!-- mybatisPlus 核心库 -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>3.1.0</version>
+            </dependency>
+            <!-- 引入阿里数据库连接池 -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>1.1.6</version>
+            </dependency>
+
+            <!---->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.10</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.12</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.62</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <plugins>
