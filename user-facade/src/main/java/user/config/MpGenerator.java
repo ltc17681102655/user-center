@@ -24,14 +24,13 @@ import java.util.Scanner;
  * </p>
  */
 public class MpGenerator {
-
-    public static String scanner(String tip) {
+    public static void main(String[] args) {
         //用来获取Mybatis-Plus.properties文件的配置信息
         ResourceBundle rb = ResourceBundle.getBundle("Mybatis-Plus");
         AutoGenerator mpg = new AutoGenerator();
 
 
-// 全局配置
+        // 全局配置
         GlobalConfig gc = new GlobalConfig();
 
 
@@ -43,7 +42,7 @@ public class MpGenerator {
         gc.setEnableCache(false);// XML 二级缓存
         gc.setBaseResultMap(true);// XML ResultMap
         gc.setBaseColumnList(false);// XML columList
-        gc.setAuthor(rb.getString("author"));
+        gc.setAuthor(rb.getString("ltc"));
         mpg.setGlobalConfig(gc);
 
 
@@ -58,21 +57,21 @@ public class MpGenerator {
         mpg.setDataSource(dsc);
 
 
-// 策略配置
+        // 策略配置
         StrategyConfig strategy = new StrategyConfig();
-//strategy.setTablePrefix(new String[] { "bmd_", "mp_" });// 此处可以修改为您的表前缀
+        //strategy.setTablePrefix(new String[] { "bmd_", "mp_" });// 此处可以修改为您的表前缀
         strategy.setNaming(NamingStrategy.underline_to_camel);// 表名生成策略
         strategy.setInclude(new String[]{rb.getString("tableName")}); // 需要生成的表
-// 字段名生成策略
-// strategy.setFieldNaming(NamingStrategy.underline_to_camel);
-//strategy.setSuperServiceImplClass("com.baomidou.springwind.service.support.BaseServiceImpl");
+        // 字段名生成策略
+        // strategy.setFieldNaming(NamingStrategy.underline_to_camel);
+        //strategy.setSuperServiceImplClass("com.baomidou.springwind.service.support.BaseServiceImpl");
         mpg.setStrategy(strategy);
 
 
-// 包配置
+        // 包配置
         PackageConfig pc = new PackageConfig();
-// pc.setModuleName("test");
-        pc.setParent(rb.getString("parent"));// 自定义包路径
+        // pc.setModuleName("test");
+        pc.setParent(rb.getString("user"));// 自定义包路径
         pc.setController("controller." + rb.getString("className"));// 这里是控制器包名，默认 web
         pc.setEntity("model." + rb.getString("className"));
         pc.setMapper("dao." + rb.getString("className"));
@@ -80,7 +79,8 @@ public class MpGenerator {
         pc.setService("service." + rb.getString("className"));
         pc.setServiceImpl("service." + rb.getString("className") + ".impl");
         mpg.setPackageInfo(pc);
-// 执行生成
+        // 执行生成
         mpg.execute();
     }
+
 }
