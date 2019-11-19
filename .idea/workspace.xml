@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13238d7d-3b37-4986-a7af-3ba0de680858" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user-facade/src/main/resource/Mybatis-Plus.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-dao/user-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-dao/user-dao.iml" afterDir="false" />
-    </list>
+    <list default="true" id="13238d7d-3b37-4986-a7af-3ba0de680858" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

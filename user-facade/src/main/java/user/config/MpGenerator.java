@@ -42,7 +42,7 @@ public class MpGenerator {
         gc.setEnableCache(false);// XML 二级缓存
         gc.setBaseResultMap(true);// XML ResultMap
         gc.setBaseColumnList(false);// XML columList
-        gc.setAuthor(rb.getString("ltc"));
+        gc.setAuthor(rb.getString("author"));
         mpg.setGlobalConfig(gc);
 
 
@@ -71,7 +71,7 @@ public class MpGenerator {
         // 包配置
         PackageConfig pc = new PackageConfig();
         // pc.setModuleName("test");
-        pc.setParent(rb.getString("user"));// 自定义包路径
+        pc.setParent(rb.getString("parent"));// 自定义包路径
         pc.setController("controller." + rb.getString("className"));// 这里是控制器包名，默认 web
         pc.setEntity("model." + rb.getString("className"));
         pc.setMapper("dao." + rb.getString("className"));
