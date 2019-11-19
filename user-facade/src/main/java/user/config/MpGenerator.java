@@ -46,7 +46,7 @@ public class MpGenerator {
         mpg.setGlobalConfig(gc);
 
 
-// 数据源配置
+        // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
         dsc.setDbType(DbType.MYSQL);
         dsc.setTypeConvert(new MySqlTypeConvert());
