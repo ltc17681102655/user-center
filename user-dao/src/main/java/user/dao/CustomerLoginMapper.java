@@ -8,6 +8,6 @@ import user.entity.CustomerLoginEntity;
  * @Date: 2019/11/18 19:35
  * @Description:
  */
-public interface CustomerLoginDao extends BaseMapper<CustomerLoginEntity> {
+public interface CustomerLoginMapper extends BaseMapper<CustomerLoginEntity> {
 
 }
