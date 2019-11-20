@@ -65,13 +65,21 @@ public class MpGenerator {
         // 包配置
         PackageConfig pc = new PackageConfig();
         // pc.setModuleName("test");
+        /**
+         * controller
+         */
         pc.setParent(rb.getString("parent"));// 自定义包路径
+//        gc.setOutputDir(rb.getString("controller"));
         pc.setController("controller." + rb.getString("className"));// 这里是控制器包名，默认 web
-        pc.setEntity("model." + rb.getString("className"));
-        pc.setMapper("dao." + rb.getString("className"));
-        pc.setXml("mapping." + rb.getString("className"));
-        pc.setService("service." + rb.getString("className"));
-        pc.setServiceImpl("service." + rb.getString("className") + ".impl");
+        /**
+         * entity
+         */
+//        gc.setOutputDir(rb.getString("OutputDir"));
+        pc.setEntity("entity." + rb.getString("className"));
+//        pc.setMapper("dao." + rb.getString("className"));
+//        pc.setXml("mapping." + rb.getString("className"));
+//        pc.setService("service." + rb.getString("className"));
+//        pc.setServiceImpl("service." + rb.getString("className") + ".impl");
         mpg.setPackageInfo(pc);
         // 执行生成
         mpg.execute();
