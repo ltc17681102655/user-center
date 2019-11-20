@@ -1,10 +1,12 @@
 package user.controller;
 
 
+import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import user.entity.CustomerInfEntity;
 import user.service.ICustomerInfService;
 
@@ -16,17 +18,23 @@ import user.service.ICustomerInfService;
  * @author ltc
  * @since 2019-11-20
  */
-@Controller
+@RestController
 @RequestMapping("/customerInf")
 public class CustomerInfController {
     @Autowired
     private ICustomerInfService customerInfService;
 
     @GetMapping("test")
-    public String test() {
+    public CustomerInfEntity test() {
         CustomerInfEntity byId = customerInfService.getById(1);
         System.out.println(byId);
+        return byId;
+    }
+
+    @GetMapping("test2")
+    public String test2() {
         return "SUCCESS";
     }
+
 }
 

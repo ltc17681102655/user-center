@@ -1,4 +1,4 @@
-package user.dao;
+package user.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import user.entity.CustomerAddrEntity;

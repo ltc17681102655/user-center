@@ -2,7 +2,7 @@ package user.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
-import user.dao.RolePermissionMapper;
+import user.mapper.RolePermissionMapper;
 import user.entity.RolePermissionEntity;
 import user.service.IRolePermissionService;
 

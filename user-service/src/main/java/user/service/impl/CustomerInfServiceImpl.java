@@ -3,7 +3,7 @@ package user.service.impl;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import user.dao.CustomerInfMapper;
+import user.mapper.CustomerInfMapper;
 import user.entity.CustomerInfEntity;
 import user.service.ICustomerInfService;
 

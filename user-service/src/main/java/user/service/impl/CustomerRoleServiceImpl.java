@@ -2,7 +2,7 @@ package user.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
-import user.dao.CustomerRoleMapper;
+import user.mapper.CustomerRoleMapper;
 import user.entity.CustomerRoleEntity;
 import user.service.ICustomerRoleService;
 

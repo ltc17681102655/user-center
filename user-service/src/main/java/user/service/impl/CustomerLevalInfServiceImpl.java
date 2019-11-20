@@ -2,7 +2,7 @@ package user.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
-import user.dao.CustomerLevalInfMapper;
+import user.mapper.CustomerLevalInfMapper;
 import user.entity.CustomerLevalInfEntity;
 import user.service.ICustomerLevalInfService;
 

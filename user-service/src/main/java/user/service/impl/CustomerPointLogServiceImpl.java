@@ -2,7 +2,7 @@ package user.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
-import user.dao.CustomerPointLogMapper;
+import user.mapper.CustomerPointLogMapper;
 import user.entity.CustomerPointLogEntity;
 import user.service.ICustomerPointLogService;
 
