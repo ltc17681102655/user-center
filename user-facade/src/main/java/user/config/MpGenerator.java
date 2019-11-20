@@ -55,7 +55,9 @@ public class MpGenerator {
         StrategyConfig strategy = new StrategyConfig();
         //strategy.setTablePrefix(new String[] { "bmd_", "mp_" });// 此处可以修改为您的表前缀
         strategy.setNaming(NamingStrategy.underline_to_camel);// 表名生成策略
-        strategy.setInclude(new String[]{rb.getString("tableName")}); // 需要生成的表
+        String tableName = rb.getString("tableName");
+        String[] split = tableName.split(",");
+        strategy.setInclude(split); // 需要生成的表
         // 字段名生成策略
         // strategy.setFieldNaming(NamingStrategy.underline_to_camel);
         //strategy.setSuperServiceImplClass("com.baomidou.springwind.service.support.BaseServiceImpl");
@@ -65,19 +67,11 @@ public class MpGenerator {
         // 包配置
         PackageConfig pc = new PackageConfig();
         // pc.setModuleName("test");
-        /**
-         * controller
-         */
         pc.setParent(rb.getString("parent"));// 自定义包路径
-//        gc.setOutputDir(rb.getString("controller"));
-        pc.setController("controller." + rb.getString("className"));// 这里是控制器包名，默认 web
-        /**
-         * entity
-         */
-//        gc.setOutputDir(rb.getString("OutputDir"));
-        pc.setEntity("entity." + rb.getString("className"));
+//        pc.setController("controller." + rb.getString("className"));// 这里是控制器包名，默认 web
+//        pc.setEntity("entity." + rb.getString("className"));
 //        pc.setMapper("dao." + rb.getString("className"));
-//        pc.setXml("mapping." + rb.getString("className"));
+//        pc.setXml("mapping." + rb.getString("className") + "Mapper");
 //        pc.setService("service." + rb.getString("className"));
 //        pc.setServiceImpl("service." + rb.getString("className") + ".impl");
         mpg.setPackageInfo(pc);
