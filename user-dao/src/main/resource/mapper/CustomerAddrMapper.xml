@@ -3,7 +3,7 @@
 <mapper namespace="user.mapper.CustomerAddrMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="user.entity.CustomerAddr">
+    <resultMap id="BaseResultMap" type="user.entity.CustomerAddrEntity">
         <id column="customer_addr_id" property="customerAddrId" />
         <result column="customer_id" property="customerId" />
         <result column="zip" property="zip" />

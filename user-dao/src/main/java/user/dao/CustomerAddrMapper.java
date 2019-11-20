@@ -1,7 +1,7 @@
 package user.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import user.entity.CustomerAddr;
+import user.entity.CustomerAddrEntity;
 
 /**
  * <p>
@@ -11,6 +11,6 @@ import user.entity.CustomerAddr;
  * @author ltc
  * @since 2019-11-20
  */
-public interface CustomerAddrMapper extends BaseMapper<CustomerAddr> {
+public interface CustomerAddrMapper extends BaseMapper<CustomerAddrEntity> {
 
 }

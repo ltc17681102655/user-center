@@ -2,8 +2,9 @@ package user.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import user.dao.CustomerAddrMapper;
-import user.entity.CustomerAddr;
+import user.entity.CustomerAddrEntity;
 import user.service.ICustomerAddrService;
 
 /**
@@ -15,6 +16,7 @@ import user.service.ICustomerAddrService;
  * @since 2019-11-20
  */
 @Service
-public class CustomerAddrServiceImpl extends ServiceImpl<CustomerAddrMapper, CustomerAddr> implements ICustomerAddrService {
+@Transactional
+public class CustomerAddrServiceImpl extends ServiceImpl<CustomerAddrMapper, CustomerAddrEntity> implements ICustomerAddrService {
 
 }
