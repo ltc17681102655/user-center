@@ -18,3 +18,4 @@ logs
 .recommenders
 Servers
 /apidoc
+*.lst
