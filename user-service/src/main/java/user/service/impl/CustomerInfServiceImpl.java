@@ -1,10 +1,11 @@
 package user.service.impl;
 
-import user.entity.CustomerInf;
-import user.mapper.CustomerInfMapper;
-import user.service.ICustomerInfService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import user.dao.CustomerInfMapper;
+import user.entity.CustomerInfEntity;
+import user.service.ICustomerInfService;
 
 /**
  * <p>
@@ -15,6 +16,7 @@ import org.springframework.stereotype.Service;
  * @since 2019-11-20
  */
 @Service
-public class CustomerInfServiceImpl extends ServiceImpl<CustomerInfMapper, CustomerInf> implements ICustomerInfService {
+@Transactional
+public class CustomerInfServiceImpl extends ServiceImpl<CustomerInfMapper, CustomerInfEntity> implements ICustomerInfService {
 
 }

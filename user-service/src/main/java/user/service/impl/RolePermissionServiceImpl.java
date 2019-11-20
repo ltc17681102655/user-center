@@ -1,10 +1,10 @@
 package user.service.impl;
 
-import user.entity.RolePermission;
-import user.mapper.RolePermissionMapper;
-import user.service.IRolePermissionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
+import user.dao.RolePermissionMapper;
+import user.entity.RolePermissionEntity;
+import user.service.IRolePermissionService;
 
 /**
  * <p>
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2019-11-20
  */
 @Service
-public class RolePermissionServiceImpl extends ServiceImpl<RolePermissionMapper, RolePermission> implements IRolePermissionService {
+public class RolePermissionServiceImpl extends ServiceImpl<RolePermissionMapper, RolePermissionEntity> implements IRolePermissionService {
 
 }

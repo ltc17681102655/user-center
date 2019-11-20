@@ -1,10 +1,10 @@
 package user.service.impl;
 
-import user.entity.CustomerRole;
-import user.mapper.CustomerRoleMapper;
-import user.service.ICustomerRoleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
+import user.dao.CustomerRoleMapper;
+import user.entity.CustomerRoleEntity;
+import user.service.ICustomerRoleService;
 
 /**
  * <p>
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2019-11-20
  */
 @Service
-public class CustomerRoleServiceImpl extends ServiceImpl<CustomerRoleMapper, CustomerRole> implements ICustomerRoleService {
+public class CustomerRoleServiceImpl extends ServiceImpl<CustomerRoleMapper, CustomerRoleEntity> implements ICustomerRoleService {
 
 }

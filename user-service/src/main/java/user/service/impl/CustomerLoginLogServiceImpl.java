@@ -1,10 +1,10 @@
 package user.service.impl;
 
-import user.entity.CustomerLoginLog;
-import user.mapper.CustomerLoginLogMapper;
-import user.service.ICustomerLoginLogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
+import user.dao.CustomerLoginLogMapper;
+import user.entity.CustomerLoginLogEntity;
+import user.service.ICustomerLoginLogService;
 
 /**
  * <p>
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2019-11-20
  */
 @Service
-public class CustomerLoginLogServiceImpl extends ServiceImpl<CustomerLoginLogMapper, CustomerLoginLog> implements ICustomerLoginLogService {
+public class CustomerLoginLogServiceImpl extends ServiceImpl<CustomerLoginLogMapper, CustomerLoginLogEntity> implements ICustomerLoginLogService {
 
 }

@@ -1,10 +1,10 @@
 package user.service.impl;
 
-import user.entity.Permission;
-import user.mapper.PermissionMapper;
-import user.service.IPermissionService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
+import user.dao.PermissionMapper;
+import user.entity.PermissionEntity;
+import user.service.IPermissionService;
 
 /**
  * <p>
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2019-11-20
  */
 @Service
-public class PermissionServiceImpl extends ServiceImpl<PermissionMapper, Permission> implements IPermissionService {
+public class PermissionServiceImpl extends ServiceImpl<PermissionMapper, PermissionEntity> implements IPermissionService {
 
 }
