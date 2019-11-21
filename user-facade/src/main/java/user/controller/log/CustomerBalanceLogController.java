@@ -1,4 +1,4 @@
-package user.controller;
+package user.controller.log;
 
 
 import org.springframework.stereotype.Controller;
