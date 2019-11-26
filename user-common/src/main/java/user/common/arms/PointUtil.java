@@ -34,6 +34,10 @@ public class PointUtil {
         return sra.getRequest();
     }
 
+    public static String ip(){
+        return request().getLocalAddr();
+    }
+
     /**
      * 接口:请求路径
      *

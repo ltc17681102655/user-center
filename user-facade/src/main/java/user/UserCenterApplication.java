@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Description:
  */
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"user.*"})
 @MapperScan(basePackages = {"user.mapper"})
 public class UserCenterApplication {
     public static void main(String[] args) {

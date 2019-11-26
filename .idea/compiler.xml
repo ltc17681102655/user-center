@@ -6,20 +6,65 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="user-facade" />
+        <module name="hutool-all" />
+        <module name="hutool-aop" />
+        <module name="hutool-bloomFilter" />
+        <module name="hutool-cache" />
+        <module name="hutool-captcha" />
+        <module name="hutool-core" />
+        <module name="hutool-cron" />
+        <module name="hutool-crypto" />
+        <module name="hutool-db" />
+        <module name="hutool-dfa" />
+        <module name="hutool-extra" />
+        <module name="hutool-http" />
+        <module name="hutool-json" />
+        <module name="hutool-log" />
+        <module name="hutool-poi" />
+        <module name="hutool-script" />
+        <module name="hutool-setting" />
+        <module name="hutool-socket" />
+        <module name="hutool-system" />
+        <module name="java-base" />
         <module name="user-common" />
-        <module name="user-service" />
-        <module name="user-dao" />
         <module name="user-core" />
+        <module name="user-dao" />
+        <module name="user-facade" />
+        <module name="user-service" />
+        <module name="utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="boot" target="1.7" />
+      <module name="hutool-all" target="8" />
+      <module name="hutool-aop" target="8" />
+      <module name="hutool-bloomFilter" target="8" />
+      <module name="hutool-bom" target="8" />
+      <module name="hutool-cache" target="8" />
+      <module name="hutool-captcha" target="8" />
+      <module name="hutool-core" target="8" />
+      <module name="hutool-cron" target="8" />
+      <module name="hutool-crypto" target="8" />
+      <module name="hutool-db" target="8" />
+      <module name="hutool-dfa" target="8" />
+      <module name="hutool-extra" target="8" />
+      <module name="hutool-http" target="8" />
+      <module name="hutool-json" target="8" />
+      <module name="hutool-log" target="8" />
+      <module name="hutool-parent" target="8" />
+      <module name="hutool-poi" target="8" />
+      <module name="hutool-script" target="8" />
+      <module name="hutool-setting" target="8" />
+      <module name="hutool-socket" target="8" />
+      <module name="hutool-system" target="8" />
+      <module name="java-base" target="1.7" />
       <module name="user-center" target="1.8" />
       <module name="user-common" target="1.8" />
       <module name="user-core" target="1.8" />
       <module name="user-dao" target="1.8" />
       <module name="user-facade" target="1.8" />
       <module name="user-service" target="1.8" />
+      <module name="utils" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -2,12 +2,36 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../framework/boot.iml" filepath="$PROJECT_DIR$/../framework/boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-all/hutool-all.iml" filepath="$PROJECT_DIR$/../hutool/hutool-all/hutool-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-aop/hutool-aop.iml" filepath="$PROJECT_DIR$/../hutool/hutool-aop/hutool-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-bloomFilter/hutool-bloomFilter.iml" filepath="$PROJECT_DIR$/../hutool/hutool-bloomFilter/hutool-bloomFilter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-bom/hutool-bom.iml" filepath="$PROJECT_DIR$/../hutool/hutool-bom/hutool-bom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-cache/hutool-cache.iml" filepath="$PROJECT_DIR$/../hutool/hutool-cache/hutool-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-captcha/hutool-captcha.iml" filepath="$PROJECT_DIR$/../hutool/hutool-captcha/hutool-captcha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-core/hutool-core.iml" filepath="$PROJECT_DIR$/../hutool/hutool-core/hutool-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-cron/hutool-cron.iml" filepath="$PROJECT_DIR$/../hutool/hutool-cron/hutool-cron.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-crypto/hutool-crypto.iml" filepath="$PROJECT_DIR$/../hutool/hutool-crypto/hutool-crypto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-db/hutool-db.iml" filepath="$PROJECT_DIR$/../hutool/hutool-db/hutool-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-dfa/hutool-dfa.iml" filepath="$PROJECT_DIR$/../hutool/hutool-dfa/hutool-dfa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-extra/hutool-extra.iml" filepath="$PROJECT_DIR$/../hutool/hutool-extra/hutool-extra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-http/hutool-http.iml" filepath="$PROJECT_DIR$/../hutool/hutool-http/hutool-http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-json/hutool-json.iml" filepath="$PROJECT_DIR$/../hutool/hutool-json/hutool-json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-log/hutool-log.iml" filepath="$PROJECT_DIR$/../hutool/hutool-log/hutool-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-parent.iml" filepath="$PROJECT_DIR$/../hutool/hutool-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-poi/hutool-poi.iml" filepath="$PROJECT_DIR$/../hutool/hutool-poi/hutool-poi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-script/hutool-script.iml" filepath="$PROJECT_DIR$/../hutool/hutool-script/hutool-script.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-setting/hutool-setting.iml" filepath="$PROJECT_DIR$/../hutool/hutool-setting/hutool-setting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-socket/hutool-socket.iml" filepath="$PROJECT_DIR$/../hutool/hutool-socket/hutool-socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hutool/hutool-system/hutool-system.iml" filepath="$PROJECT_DIR$/../hutool/hutool-system/hutool-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../framework/java-base/java-base.iml" filepath="$PROJECT_DIR$/../framework/java-base/java-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-center.iml" filepath="$PROJECT_DIR$/user-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-common/user-common.iml" filepath="$PROJECT_DIR$/user-common/user-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-core/user-core.iml" filepath="$PROJECT_DIR$/user-core/user-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-dao/user-dao.iml" filepath="$PROJECT_DIR$/user-dao/user-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-facade/user-facade.iml" filepath="$PROJECT_DIR$/user-facade/user-facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../framework/utils/utils.iml" filepath="$PROJECT_DIR$/../framework/utils/utils.iml" />
     </modules>
   </component>
 </project>
