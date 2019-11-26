@@ -1,6 +1,7 @@
 package user.common.arms;
 
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.reflect.MethodSignature;
@@ -34,8 +35,25 @@ public class PointUtil {
         return sra.getRequest();
     }
 
-    public static String ip(){
-        return request().getLocalAddr();
+    /**
+     * 获取IP地址
+     *
+     * @return
+     */
+    public static String ip() {
+        HttpServletRequest request = request();
+        String ip = request.getHeader("X-Forwarded-For");
+        if (StringUtils.isNotEmpty(ip) && !"unKnow".equalsIgnoreCase(ip)) {
+            //多次反向代理后会有多个ip值，第一个ip才是真实ip
+            String[] ipList = ip.split(",");
+            ip = ipList[0];
+        } else {
+            ip = request.getHeader("X-Real-IP");
+            if (StringUtils.isEmpty(ip) || "unKnown".equalsIgnoreCase(ip)) {
+                ip = request.getRemoteAddr();
+            }
+        }
+        return ip;
     }
 
     /**
