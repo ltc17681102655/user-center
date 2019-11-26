@@ -1,6 +1,6 @@
 package user.common.arms;
 
-import com.aikucun.order.common.enums.BaseValue;
+import user.common.enums.BaseValue;
 
 /**
  * @Auther: ltc
