@@ -23,7 +23,7 @@ public class TestController {
      * @return
      */
     @GetMapping("http-request")
-    public String test() {
+    public String http() {
         RequestAttributes ra = RequestContextHolder.getRequestAttributes();
         ServletRequestAttributes sra = (ServletRequestAttributes) ra;
         HttpServletRequest request = sra.getRequest();

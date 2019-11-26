@@ -24,16 +24,11 @@ public class CustomerInfController {
     @Autowired
     private ICustomerInfService customerInfService;
 
-    @GetMapping("test")
-    public CustomerInfEntity test() {
+    @GetMapping("info")
+    public CustomerInfEntity userInfo() {
         CustomerInfEntity byId = customerInfService.getById(1);
         System.out.println(byId);
         return byId;
-    }
-
-    @GetMapping("test2")
-    public String test2() {
-        return "SUCCESS";
     }
 
 }

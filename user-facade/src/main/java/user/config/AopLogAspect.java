@@ -6,10 +6,8 @@ import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
-import org.hamcrest.core.Is;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import sun.security.jgss.GSSCaller;
 import user.common.arms.PointUtil;
 import user.common.enums.AopLogTypeEnum;
 import user.entity.AopLogEntity;
@@ -34,7 +32,7 @@ public class AopLogAspect {
     @Autowired
     private AopLogMapper aopLogMapper;
 
-    @Pointcut(value = "within(user.*)")
+    @Pointcut(value = "within(user.controller.*)")
     public void aopLog() {
     }
 
